@@ -7,6 +7,10 @@ Generates time and distance data from one source to many destinations or many de
 1. Create a CSV without a header that contains a list of either sources or destinations.
 2. Install Selenium.
 3. Run the script from the terminal.
+4. The output csv header will be formatted as follows.
+```
+"locations", "distance", "time"
+```
 
 ### Prerequisites
 
@@ -33,8 +37,6 @@ From many sources to one destination
 ```
 python3 multi_router.py "Source.csv" "Destination"
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Built With
 * [Python 3.6](https://www.python.org/downloads/)
