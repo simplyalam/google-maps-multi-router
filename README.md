@@ -1,6 +1,7 @@
 # Google Maps Muti-Route Calculator
 
 Generates time and distance data from one source to many destinations or many destinations to one source.
+Outputs a CSV containing the bulk locations, distance data in miles, and time data in minutes.
 
 ## Getting Started
 
@@ -9,7 +10,7 @@ Generates time and distance data from one source to many destinations or many de
 3. Run the script from the terminal.
 4. The output csv header will be formatted as follows.
 ```
-"locations", "distance", "time"
+"locations", "distance_mi", "time_min"
 ```
 
 ### Prerequisites
