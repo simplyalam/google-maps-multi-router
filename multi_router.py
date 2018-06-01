@@ -3,9 +3,9 @@
 """ Utility to find the distance and time from location(s) to location(s)
 
     Generate one source to many destinations:
-        Ex. $ py multi_router "source" destination.csv"
+        Ex. $ ./multi_router.py "source" destination.csv"
     Generate many sources to one destination:
-        Ex. $ py multi_router "source.csv" "destination"
+        Ex. $ ./multi_router.py "source.csv" "destination"
 """
 
 from selenium import webdriver
