@@ -31,12 +31,12 @@ Sources/Destinations values can be anything that's accepted by the Google Maps s
 
 From one source to many destinations
 ```
-python3 multi_router.py "Source" "Destination.csv"
+$ ./multi_router.py "Source" "Destination.csv"
 ```
 
 From many sources to one destination
 ```
-python3 multi_router.py "Source.csv" "Destination"
+$ ./multi_router.py "Source.csv" "Destination"
 ```
 
 ## Built With
